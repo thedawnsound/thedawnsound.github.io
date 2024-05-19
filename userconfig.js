@@ -30,7 +30,7 @@ const CONFIG = new Config({
   openLastVisitedTab: false,
   tabs: [
     {
-      name: 'welcome',
+      name: 'いらっしゃい',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
         name: 'g-suite',
@@ -47,7 +47,7 @@ const CONFIG = new Config({
           },
           {
             name: 'gmail',
-            url: https://mail.google.com/mail/u/0/#inbox',
+            url: 'https://mail.google.com/mail/u/0/#inbox',
             icon: 'book'
           },
           {
