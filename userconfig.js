@@ -30,35 +30,35 @@ const CONFIG = new Config({
   openLastVisitedTab: false,
   tabs: [
     {
-      name: 'boards',
+      name: 'いらっしゃい',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
-        name: 'fun',
+        name: 'g-suite',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            url: 'https://www.youtube.com/',
+            name: 'youtube'
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
+            name: 'keep',
+            url: 'https://keep.google.com/u/0/',
             icon: 'leaf',
             icon_color: '#64876d'
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
+            name: 'gmail',
+            url: https://mail.google.com/mail/u/0/#inbox',
             icon: 'book'
           },
           {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
+            name: 'drive',
+            url: 'https://drive.google.com/drive/u/0/home',
             icon: 'device-gamepad',
             icon_color: '#8b647b'
           },
           {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
+            name: 'translate',
+            url: 'https://translate.google.ca/',
             icon: 'camera'
           }
         ]
