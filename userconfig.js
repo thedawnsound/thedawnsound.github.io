@@ -10,7 +10,7 @@ const CONFIG = new Config({
     scale: 'C'
   },
   clock: {
-    format: '%a %B %d',
+    format: 'a B d H:M',
     iconColor: '#DCD7BA'
   },
   search: {
@@ -68,7 +68,7 @@ const CONFIG = new Config({
         ]
       },
       {
-        name: 'Entertainment',
+        name: 'entertainment',
         links: [
           {
             name: 'tenhou',
@@ -83,6 +83,12 @@ const CONFIG = new Config({
             icon_color: '#6A9589'
           },
           {
+            name: '9anime',
+            url: 'https://9animetv.to/',
+            icon: 'ship',
+            icon_color: '#6A9589'
+          },
+          {
             name: 'wjar',
             url: 'https://weedjar.ca/location-select/?dtche%5Blocation%5D=weedjar-yonge',
             icon: 'seeding',
@@ -91,7 +97,7 @@ const CONFIG = new Config({
         ]
       },
       {
-        name: 'Technology',
+        name: 'technology',
         links: [
           {
             name: 'fitgirl',
@@ -106,33 +112,21 @@ const CONFIG = new Config({
             icon_color: '#957FB8'
           },
           {
-            name: 'unsplash',
-            url: 'https://unsplash.com/',
-            icon: 'camera',
-            icon_color: '#727169'
-          },
-          {
-            name: 'are.na',
-            url: 'https://www.are.na/reflexive-codes/vectorheart-adjgyd5wdyy',
-            icon: 'photo-scan',
-            icon_color: '#16161D'
-          },
-          {
-            name: 'r/a/dio',
-            url: 'https://r-a-d.io/',
-            icon: 'radio',
-            icon_color: '#C34043'
+            name: 'github',
+            url: 'https://github.com/thedawnsound?tab=repositories',
+            icon: 'download',
+            icon_color: '#FFA066'
           }
         ]
       }
       ]
     },
     {
-      name: 'music',
+      name: 'はたらく',
       background_url: 'src/img/banners/bg-2.gif',
       categories: [
         {
-          name: 'music services',
+          name: 'sjc',
           links: [
             {
               url: 'https://soundcloud.com/',
@@ -151,7 +145,7 @@ const CONFIG = new Config({
           ]
         },
         {
-          name: 'music boards',
+          name: 'walmart',
           links: [
             {
               name: '/music/',
@@ -167,47 +161,52 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'tech',
+      name: 'なんでも',
       background_url: 'src/img/banners/bg-3.gif',
       categories: [
         {
-          name: 'subreddits',
+          name: 'images',
           links: [
             {
-              name: 'r/startpages/',
-              url: 'https://www.reddit.com/r/startpages/'
+              name: 'unsplash',
+              url: 'https://unsplash.com/',
+              icon: 'camera',
+              icon_color: '#727169'
             },
             {
-              name: 'r/unixporn',
-              url: 'https://www.reddit.com/r/unixporn/'
+              name: 'are.na',
+              url: 'https://www.are.na/reflexive-codes/vectorheart-adjgyd5wdyy',
+              icon: 'photo-scan',
+              icon_color: '#717C7C'
             },
             {
-              name: 'r/mechkbds/',
-              url: 'https://www.reddit.com/r/MechanicalKeyboards/',
-              icon: 'keyboard',
-              icon_color: '#a57685'
+              name: 'bulk image resizer',
+              url: 'https://www.birme.net/',
+              icon: 'photo-scan',
+              icon_color: '#717C7C'
             },
             {
-              name: 'r/programming',
-              url: 'https://www.reddit.com/r/programming/'
+              name: 'coolors',
+              url: 'https://coolors.co/585123-eec170-f2a65a-f58549-772f1a',
+              icon: 'photo-scan',
+              icon_color: '#717C7C'
             }
           ]
         },
         {
-          name: 'blogs',
+          name: 'music',
           links: [
             {
-              name: 'fasterthanli',
-              url: 'https://fasterthanli.me/articles',
-              icon: 'anchor'
+              name: 'r/a/dio',
+              url: 'https://r-a-d.io/',
+              icon: 'radio',
+              icon_color: '#C34043'
             },
             {
-              name: 'dev.to',
-              url: 'https://dev.to'
-            },
-            {
-              name: 'mataroa.blog',
-              url: 'https://collection.mataroa.blog',
+              name: 'bpm calc',
+              url: 'https://sengpielaudio.com/calculator-bpmtempotime.htm',
+              icon: 'radio',
+              icon_color: '#C34043'
             }
           ]
         },
@@ -215,15 +214,28 @@ const CONFIG = new Config({
           name: 'misc',
           links: [
             {
-              name: 'post office',
-              url: 'http://afternoon.dynu.com/letterbox.html',
+              name: 'citefast',
+              url: 'https://www.citefast.com/?s=APA7',
               icon: 'mailbox'
+              icon_color: '#C34043'
             },
             {
-              name: 'rust docs',
-              url: 'https://doc.rust-lang.org/book/',
-              icon: 'notebook',
-              icon_color: '#977a3a'
+              name: 'tabler icons',
+              url: 'https://tabler.io/icons',
+              icon: 'mailbox'
+              icon_color: '#C34043'
+            },
+            {
+              name: 'nerd fonts',
+              url: 'https://www.nerdfonts.com/font-downloads',
+              icon: 'mailbox'
+              icon_color: '#C34043'
+            },
+            {
+              name: 'kanagawa colors',
+              url: 'https://github.com/rebelot/kanagawa.nvim?tab=readme-ov-file#color-palette',
+              icon: 'mailbox'
+              icon_color: '#C34043'
             }
           ]
         }
