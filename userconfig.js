@@ -154,7 +154,7 @@ const CONFIG = new Config({
             },
             {
               name: '/mu/',
-              url: 'https://boards.4channel.org/mu/',
+              url: 'https://boards.4channel.org/mu/'
             }
           ]
         }
@@ -216,25 +216,25 @@ const CONFIG = new Config({
             {
               name: 'citefast',
               url: 'https://www.citefast.com/?s=APA7',
-              icon: 'mailbox'
+              icon: 'mailbox',
               icon_color: '#C34043'
             },
             {
               name: 'tabler icons',
               url: 'https://tabler.io/icons',
-              icon: 'mailbox'
+              icon: 'mailbox',
               icon_color: '#C34043'
             },
             {
               name: 'nerd fonts',
               url: 'https://www.nerdfonts.com/font-downloads',
-              icon: 'mailbox'
+              icon: 'mailbox',
               icon_color: '#C34043'
             },
             {
               name: 'kanagawa colors',
               url: 'https://github.com/rebelot/kanagawa.nvim?tab=readme-ov-file#color-palette',
-              icon: 'mailbox'
+              icon: 'mailbox',
               icon_color: '#C34043'
             }
           ]
