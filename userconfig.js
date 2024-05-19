@@ -10,7 +10,7 @@ const CONFIG = new Config({
     scale: 'C'
   },
   clock: {
-    format: 'H:i p',
+    format: '%a %B %d',
     iconColor: '#DCD7BA'
   },
   search: {
@@ -36,43 +36,57 @@ const CONFIG = new Config({
         name: 'g-suite',
         links: [
           {
+            name: 'Youtube',
             url: 'https://www.youtube.com/',
-            name: 'youtube'
+            icon: 'brand-youtube',
+            icon_color: '#C34043'
           },
           {
-            name: 'keep',
+            name: 'Keep',
             url: 'https://keep.google.com/u/0/',
-            icon: 'leaf',
-            icon_color: '#64876d'
+            icon: 'sticker-2',
+            icon_color: '#DCA561'
           },
           {
-            name: 'gmail',
+            name: 'Gmail',
             url: 'https://mail.google.com/mail/u/0/#inbox',
-            icon: 'book'
+            icon: 'mail',
+            icon_color: '#C34043'
           },
           {
-            name: 'drive',
+            name: 'Drive',
             url: 'https://drive.google.com/drive/u/0/home',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
+            icon: 'brand-google-drive',
+            icon_color: '#76946A'
           },
           {
-            name: 'translate',
+            name: 'Translate',
             url: 'https://translate.google.ca/',
-            icon: 'camera'
+            icon: 'language-katakana',
+            icon_color: '#2D4F67'
           }
         ]
       },
       {
-        name: 'Comfy',
+        name: 'Entertainment',
         links: [
           {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            name: 'Tenhou',
+            url: 'https://tenhou.net/0/',
+            icon: 'rectangle-vertical',
+            icon_color: '#C8C093'
           },
           {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
+            name: 'One Pace',
+            url: 'https://rentry.co/onepace',
+            icon: 'ship',
+            icon_color: '#6A9589'
+          },
+          {
+            name: 'WJar',
+            url: 'https://weedjar.ca/location-select/?dtche%5Blocation%5D=weedjar-yonge',
+            icon: 'seeding',
+            icon_color: '#76946A'
           }
         ]
       },
@@ -80,25 +94,26 @@ const CONFIG = new Config({
         name: 'Technology',
         links: [
           {
-            name: '/g/',
-            url: 'https://4chan.org/g/',
+            name: 'FitGirl',
+            url: 'https://1337x.to/user/FitGirl/'
           },
           {
-            name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
+            name: 'Bitsearch',
+            url: 'https://bitsearch.to/'
           },
           {
-            name: '/λ/',
-            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
+            name: 'Unsplash',
+            url: 'https://unsplash.com/'
           },
           {
-            name: '/sec/',
-            url: 'https://www.lainchan.org/sec/catalog.html'
+            name: 'Are.na',
+            url: 'https://www.are.na/reflexive-codes/vectorheart-adjgyd5wdyy'
           },
           {
-            name: '/prog/',
-            url: 'https://boards.420chan.org/prog/',
-            icon: 'code'
+            name: 'R/a/dio',
+            url: 'https://r-a-d.io/',
+            icon: 'radio',
+            icon_color: '#C34043'
           }
         ]
       }
