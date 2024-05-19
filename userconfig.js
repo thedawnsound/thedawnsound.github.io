@@ -36,34 +36,34 @@ const CONFIG = new Config({
         name: 'g-suite',
         links: [
           {
-            name: 'Youtube',
+            name: 'youtube',
             url: 'https://www.youtube.com/',
             icon: 'brand-youtube',
-            icon_color: '#C34043'
+            icon_color: '#E82424'
           },
           {
-            name: 'Keep',
+            name: 'keep',
             url: 'https://keep.google.com/u/0/',
             icon: 'sticker-2',
             icon_color: '#DCA561'
           },
           {
-            name: 'Gmail',
+            name: 'gmail',
             url: 'https://mail.google.com/mail/u/0/#inbox',
             icon: 'mail',
             icon_color: '#C34043'
           },
           {
-            name: 'Drive',
+            name: 'drive',
             url: 'https://drive.google.com/drive/u/0/home',
             icon: 'brand-google-drive',
             icon_color: '#76946A'
           },
           {
-            name: 'Translate',
+            name: 'translate',
             url: 'https://translate.google.ca/',
             icon: 'language-katakana',
-            icon_color: '#2D4F67'
+            icon_color: '#7FB4CA'
           }
         ]
       },
@@ -71,19 +71,19 @@ const CONFIG = new Config({
         name: 'Entertainment',
         links: [
           {
-            name: 'Tenhou',
+            name: 'tenhou',
             url: 'https://tenhou.net/0/',
             icon: 'rectangle-vertical',
             icon_color: '#C8C093'
           },
           {
-            name: 'One Pace',
+            name: 'one pace',
             url: 'https://rentry.co/onepace',
             icon: 'ship',
             icon_color: '#6A9589'
           },
           {
-            name: 'WJar',
+            name: 'wjar',
             url: 'https://weedjar.ca/location-select/?dtche%5Blocation%5D=weedjar-yonge',
             icon: 'seeding',
             icon_color: '#76946A'
@@ -94,23 +94,31 @@ const CONFIG = new Config({
         name: 'Technology',
         links: [
           {
-            name: 'FitGirl',
-            url: 'https://1337x.to/user/FitGirl/'
+            name: 'fitgirl',
+            url: 'https://1337x.to/user/FitGirl/',
+            icon: 'download',
+            icon_color: '#FFA066'
           },
           {
-            name: 'Bitsearch',
-            url: 'https://bitsearch.to/'
+            name: 'bitsearch',
+            url: 'https://bitsearch.to/',
+            icon: 'file-search',
+            icon_color: '#957FB8'
           },
           {
-            name: 'Unsplash',
-            url: 'https://unsplash.com/'
+            name: 'unsplash',
+            url: 'https://unsplash.com/',
+            icon: 'camera',
+            icon_color: '#727169'
           },
           {
-            name: 'Are.na',
-            url: 'https://www.are.na/reflexive-codes/vectorheart-adjgyd5wdyy'
+            name: 'are.na',
+            url: 'https://www.are.na/reflexive-codes/vectorheart-adjgyd5wdyy',
+            icon: 'photo-scan',
+            icon_color: '#16161D'
           },
           {
-            name: 'R/a/dio',
+            name: 'r/a/dio',
             url: 'https://r-a-d.io/',
             icon: 'radio',
             icon_color: '#C34043'
