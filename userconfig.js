@@ -30,7 +30,7 @@ const CONFIG = new Config({
   openLastVisitedTab: false,
   tabs: [
     {
-      name: 'いらっしゃい',
+      name: 'welcome',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
         name: 'g-suite',
