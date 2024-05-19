@@ -6,12 +6,12 @@ const CONFIG = new Config({
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Toronto, Canada',
     scale: 'C'
   },
   clock: {
-    format: 'h:i p',
-    iconColor: '#ff7b95'
+    format: 'H:i p',
+    iconColor: '#DCD7BA'
   },
   search: {
     engines: {
@@ -26,7 +26,7 @@ const CONFIG = new Config({
     "t": 'todo-list',
     "s": 'search-bar'
   },
-  disabled: ['crypto-rate'],
+  disabled: ['crypto-rate', 'search-bar'],
   openLastVisitedTab: false,
   tabs: [
     {
