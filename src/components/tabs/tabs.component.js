@@ -169,7 +169,7 @@ class Tabs extends Component {
       .categories ul .links a {
           color: #DCD7BA;
           text-decoration: none;
-          font: 700 18px 'DaddyTimeMono', sans-serif !important;
+          font: 500 17px 'DaddyTimeMono', sans-serif !important;
           transition: all .2s;
           display: inline-flex;
           align-items: center;
@@ -222,7 +222,7 @@ class Tabs extends Component {
       .categories .links li:not(:last-child) {
           box-shadow: 0 1px 0 rgba(255, 255, 255, .07);
           padding: 0 0 .5em 0;
-          margin-bottom: 1.5em;
+          margin-bottom: 1em;
       }
 
       .categories .links li h1 {
