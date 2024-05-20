@@ -237,7 +237,7 @@ class Todo extends Component {
 
       .header-title {
           font-weight: 100;
-          font-family: 'DaddyTimeMono', sans-serif;
+          font-family: 'Roboto', sans-serif;
           font-size: 24pt;
           color: rgba(220, 215, 186, .1);
           text-align: center;
@@ -343,7 +343,7 @@ class Todo extends Component {
           grid-row: 1;
           transition: top .3s;
           background: #98BB6C;
-          box-shadow: 0 0 0 1px #b2bfa4, 0 5px 5px rgb(0 0 0 / 20%);
+          box-shadow: 0 0 0 1px #c5ed95, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       :is(.add-task,
@@ -357,7 +357,7 @@ class Todo extends Component {
 
       .add-task .add-task-icon {
           transition: transform .3s;
-          color: #b2bfa4;
+          color: #c5ed95;
       }
 
       .tasks {
