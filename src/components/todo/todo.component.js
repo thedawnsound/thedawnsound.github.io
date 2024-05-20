@@ -217,8 +217,8 @@ class Todo extends Component {
   style() {
     return `
       :host {
-          --done: #76946A;
-          --todo: #C34043;
+          --done: #98BB6C;
+          --todo: #E82424;
           --bg: #1F1F28;
           --task-options-reveal-time: .15s;
           --task-options-done-background: #98BB6C;
@@ -237,8 +237,9 @@ class Todo extends Component {
 
       .header-title {
           font-weight: 100;
+          font-family: 'DaddyTimeMono', sans-serif;
           font-size: 24pt;
-          color: rgba(255, 255, 255, .1);
+          color: rgba(220, 215, 186, .1);
           text-align: center;
           width: 100%;
       }
@@ -250,7 +251,7 @@ class Todo extends Component {
           width: 100%;
           padding: 8px;
           border-radius: 10px;
-          box-shadow: inset 0 0 0 2px #18181d;
+          box-shadow: inset 0 0 0 2px #16161D;
       }
 
       .counter {
@@ -265,8 +266,8 @@ class Todo extends Component {
           cursor: pointer;
           height: 25px;
           min-width: 30px;
-          background: #18181d;
-          border-radius: 5px;
+          background: #16161D;
+          border-radius: 0px;
           box-shadow: 0 0 0 1px #27272a, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
@@ -275,7 +276,7 @@ class Todo extends Component {
           opacity: .5;
           cursor: unset;
           background: #C34043;
-          box-shadow: 0 0 0 1px #43242B, 0 5px 5px rgb(0 0 0 / 20%);
+          box-shadow: 0 0 0 1px #E46876, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       .clean-tasks.active {
@@ -288,7 +289,7 @@ class Todo extends Component {
       }
 
       .clean-tasks-icon {
-          color: #E82424;
+          color: #E46876;
       }
 
       .add-task:hover .add-task-icon {
@@ -342,7 +343,7 @@ class Todo extends Component {
           grid-row: 1;
           transition: top .3s;
           background: #76946A;
-          box-shadow: 0 0 0 1px #2B3328, 0 5px 5px rgb(0 0 0 / 20%);
+          box-shadow: 0 0 0 1px #98BB6C, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       :is(.add-task,
