@@ -301,7 +301,7 @@ class Todo extends Component {
       }
 
       .todo-count {
-          color: #E82424;
+          color: #C34043;
           font-weight: bold;
           border-radius: 5px 0 0 5px;
       }
@@ -315,7 +315,7 @@ class Todo extends Component {
 
       .todo-count,
       .done-count {
-          width: 80%;
+          width: 100%;
           height: 100%;
           cursor: pointer;
           font-family: 'DaddyTimeMono', sans-serif;
@@ -343,7 +343,7 @@ class Todo extends Component {
           grid-row: 1;
           transition: top .3s;
           background: #98BB6C;
-          box-shadow: 0 0 0 1px #86b27f, 0 5px 5px rgb(0 0 0 / 20%);
+          box-shadow: 0 0 0 1px #a1b884, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       :is(.add-task,
@@ -357,7 +357,7 @@ class Todo extends Component {
 
       .add-task .add-task-icon {
           transition: transform .3s;
-          color: #86b27f;
+          color: #a1b884;
       }
 
       .tasks {
@@ -743,7 +743,6 @@ class Todo extends Component {
           width: 100%;
           position: absolute;
           left: 0;
-	  up: 50px;
       }
 
       .create-task-reminder::after,
