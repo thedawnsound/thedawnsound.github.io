@@ -28,6 +28,7 @@ class Todo extends Component {
     return [
       this.resources.fonts.roboto,
       this.resources.fonts.daddytimemono,
+      this.resources.fonts.raleway,
       this.resources.icons.material,
       this.resources.libs.awoo
     ];
@@ -237,11 +238,12 @@ class Todo extends Component {
 
       .header-title {
           font-weight: 100;
-          font-family: 'Roboto', sans-serif;
+          font-family: 'Nunito', sans-serif;
           font-size: 24pt;
           color: rgba(220, 215, 186, .1);
           text-align: center;
           width: 100%;
+          letter-spacing: 1px;
       }
 
       .task-actions {

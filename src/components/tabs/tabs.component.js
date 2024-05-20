@@ -70,6 +70,7 @@ class Tabs extends Component {
       this.resources.icons.material,
       this.resources.icons.tabler,
       this.resources.fonts.roboto,
+      this.resources.fonts.daddytimemono,
       this.resources.fonts.raleway,
       this.resources.libs.awoo
     ];
