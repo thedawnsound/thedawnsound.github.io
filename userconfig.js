@@ -145,7 +145,7 @@ const CONFIG = new Config({
               url: 'https://walmartportal.stjosephcontent.com/PORTAL/STARTUP.php',
               icon: 'x',
               icon_color: '#2D4F67'
-            },
+            }
           ]
         },
         {
