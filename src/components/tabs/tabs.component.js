@@ -132,7 +132,7 @@ class Tabs extends Component {
 
       @keyframes scroll {
           50% {
-              background-position-x: -240px;
+              background-position-y: -240px;
           }
       }
 
