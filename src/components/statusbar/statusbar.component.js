@@ -122,7 +122,7 @@ class Statusbar extends Component {
           margin: auto;
           height: 32px;
           color: #fff;
-          font-size: 12px;
+          font-size: 14px;
           background: #1f1f28;
       }
 

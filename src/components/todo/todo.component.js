@@ -490,7 +490,6 @@ class Todo extends Component {
           color: #c1c1c1;
           font-weight: 700 !important;
           font-family: 'DaddyTimeMono', sans-serif !important;
-          width: 150%;
           transition: color .2s;
       }
 
@@ -885,7 +884,7 @@ class Todo extends Component {
       .task-footer {
           border-top: 1px solid #292929;
           display: grid;
-          grid-template-columns: [added-at] 100px auto [priority] 8px;
+          grid-template-columns: [added-at] 120px auto [priority] 8px;
           align-items: center;
           padding-top: 10px;
       }

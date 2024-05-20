@@ -224,7 +224,7 @@ const CONFIG = new Config({
               name: 'citefast',
               url: 'https://www.citefast.com/?s=APA7',
               icon: 'blockquote',
-              icon_color: '#C34043'
+              icon_color: '#E82424'
             },
             {
               name: 'tabler icons',
