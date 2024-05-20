@@ -57,7 +57,7 @@ const CONFIG = new Config({
             name: 'drive',
             url: 'https://drive.google.com/drive/u/0/home',
             icon: 'brand-google-drive',
-            icon_color: '#98BB6C'
+            icon_color: '#76946a'
           },
           {
             name: 'translate',
@@ -80,7 +80,7 @@ const CONFIG = new Config({
             name: 'one pace',
             url: 'https://rentry.co/onepace',
             icon: 'ship',
-            icon_color: '#6A9589'
+            icon_color: '#2D4F67'
           },
           {
             name: '9anime',
@@ -92,7 +92,7 @@ const CONFIG = new Config({
             name: 'wjar',
             url: 'https://weedjar.ca/location-select/?dtche%5Blocation%5D=weedjar-yonge',
             icon: 'seeding',
-            icon_color: '#76946A'
+            icon_color: '#98BB6C'
           }
         ]
       },
@@ -109,7 +109,7 @@ const CONFIG = new Config({
             name: 'bitsearch',
             url: 'https://bitsearch.to/',
             icon: 'file-search',
-            icon_color: '#957FB8'
+            icon_color: '#7E9CD8'
           },
           {
             name: 'github',
@@ -144,7 +144,7 @@ const CONFIG = new Config({
            　 name: 'drive',
            　 url: 'https://drive.google.com/drive/u/1/my-drive',
            　 icon: 'brand-google-drive',
-           　 icon_color: '#98BB6C'
+           　 icon_color: '#76946a'
           　}
           ]
         },
@@ -187,7 +187,7 @@ const CONFIG = new Config({
               icon_color: '#717C7C'
             },
             {
-              name: 'bulk image resizer',
+              name: 'birme',
               url: 'https://www.birme.net/',
               icon: 'resize',
               icon_color: '#2D4F67'

@@ -241,10 +241,10 @@ class Todo extends Component {
           font-weight: 100;
           font-family: 'Nunito', sans-serif;
           font-size: 24pt;
-          color: rgba(220, 215, 186, .1);
+          color: rgba(220, 215, 186, .3);
           text-align: center;
-          width: 50%;
-          letter-spacing: 2px;
+          width: 100%;
+          letter-spacing: 10px;
       }
 
       .task-actions {
@@ -1037,7 +1037,7 @@ class Todo extends Component {
       </div>
       <rows class="tasks">
         <div class="+ header">
-          <p class="+ header-title">タスクリスト</p>
+          <p class="+ header-title">リスト</p>
           <div class="task-actions">
             <button class="+ add-task task-action" title="Add new task">
               <i class="material-icons add-task-icon">add</i>
