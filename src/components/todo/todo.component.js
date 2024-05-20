@@ -1039,7 +1039,7 @@ class Todo extends Component {
       </div>
       <rows class="tasks">
         <div class="+ header">
-          <p class="+ header-title">タスクリスト</p>
+          <p class="+ header-title">todo</p>
           <div class="task-actions">
             <button class="+ add-task task-action" title="Add new task">
               <i class="material-icons add-task-icon">add</i>
