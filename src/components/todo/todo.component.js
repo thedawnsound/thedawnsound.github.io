@@ -446,7 +446,7 @@ class Todo extends Component {
       .task-description,
       .edit-task-header-title,
       .create-task-header-title {
-          color: #e8e8e8;
+          color: #DCD7BA;
           font: 400 14px 'DaddyTimeMono', sans-serif;
           max-width: 250px;
           word-wrap: break-word;
@@ -457,7 +457,7 @@ class Todo extends Component {
       .task-description {
           font-weight: 400;
           font-size: 12px;
-          color: #9a9a9a;
+          color: #DCD7BA;
           margin-bottom: 15px;
       }
 
@@ -506,9 +506,9 @@ class Todo extends Component {
           box-shadow: inset 0 0 0 2px #25252d;
           padding: .5em 1em;
           width: 70%;
-          color: #fff;
+          color: #DCD7BA;
           font: 400 15px 'DaddyTimeMono', sans-serif;
-          background: #0f0f12;
+          background: #54546D;
           border-radius: 40px;
           box-sizing: border-box;
           transition: box-shadow .1s;
@@ -534,7 +534,7 @@ class Todo extends Component {
           margin-left: -30px;
           height: 100%;
           scrollbar-width: thin;
-          scrollbar-color: #313138 transparent;
+          scrollbar-color: #C8C093 transparent;
       }
 
       .task-list.dim {
@@ -547,7 +547,7 @@ class Todo extends Component {
       }
 
       .task-list::-webkit-scrollbar-thumb {
-          background: #313138;
+          background: #C8C093;
           border-radius: 5px;
       }
 
@@ -563,7 +563,7 @@ class Todo extends Component {
           height: 100%;
           position: relative;
           padding: 1em 1em .5em;
-          background: #18181d;
+          background: #1F1F28;
           transition: height var(--task-options-reveal-time) ease-in,
                       margin var(--task-options-reveal-time) ease-in,
                       box-shadow var(--task-options-reveal-time) ease-in;
@@ -592,7 +592,7 @@ class Todo extends Component {
           width: 100%;
           height: 100%;
           position: absolute;
-          background: #18181d;
+          background: #1F1F28;
           z-index: 1;
           top: 100%;
           opacity: 0;
@@ -649,10 +649,10 @@ class Todo extends Component {
             font-size: 9px;
             font-family: 'DaddyTimeMono', sans-serif;
             text-transform: uppercase;
-            color: #b5b5b5;
+            color: #DCD7BA;
             letter-spacing: 1px;
             transition: top .1s;
-            background: #181818;
+            background: #16161D;
             white-space: nowrap;
             bottom: 0;
             margin: auto 1.5em;
