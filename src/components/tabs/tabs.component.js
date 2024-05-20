@@ -82,7 +82,7 @@ class Tabs extends Component {
       status-bar {
           bottom: -70px;
           height: 32px;
-          background: #18181d;
+          background: #1F1F28;
           border-radius: 4px;
           box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
       }
@@ -108,7 +108,7 @@ class Tabs extends Component {
           bottom: 0;
           margin: auto;
           box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-          background: #18181d;
+          background: #1F1F28;
       }
 
       .categories {
@@ -169,7 +169,7 @@ class Tabs extends Component {
       .categories ul .links a {
           color: #8a8b93;
           text-decoration: none;
-          font: 700 18px 'Roboto', sans-serif;
+          font: 700 18px 'DaddyTimeMono', sans-serif;
           transition: all .2s;
           display: inline-flex;
           align-items: center;
@@ -232,7 +232,7 @@ class Tabs extends Component {
           font-weight: 600;
           letter-spacing: 1px;
           text-transform: uppercase;
-          font-family: 'Raleway', sans-serif;
+          font-family: 'DaddyTimeMono', sans-serif;
       }
 
       .categories .link-icon {
