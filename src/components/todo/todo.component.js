@@ -427,10 +427,10 @@ class Todo extends Component {
       }
 
       .add-task-button {
-          background: #2e2e38;
+          background: #98BB6C;
           padding: .5em 1em;
           border-radius: 5px;
-          color: #8c8ca0;
+          color: #76946A;
           margin-top: 1em;
           margin-left: auto;
           box-shadow: inset 0 0 0 1px #3e3e4a;
