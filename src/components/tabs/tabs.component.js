@@ -72,6 +72,7 @@ class Tabs extends Component {
       this.resources.fonts.roboto,
       this.resources.fonts.daddytimemono,
       this.resources.fonts.raleway,
+      this.resources.fonts.nunito,
       this.resources.libs.awoo
     ];
   }

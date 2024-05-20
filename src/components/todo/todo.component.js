@@ -29,6 +29,7 @@ class Todo extends Component {
       this.resources.fonts.roboto,
       this.resources.fonts.daddytimemono,
       this.resources.fonts.raleway,
+      this.resources.fonts.nunito,
       this.resources.icons.material,
       this.resources.libs.awoo
     ];
@@ -239,7 +240,7 @@ class Todo extends Component {
       .header-title {
           font-weight: 100;
           font-family: 'Nunito', sans-serif;
-          font-size: 24pt;
+          font-size: 30pt;
           color: rgba(220, 215, 186, .1);
           text-align: center;
           width: 100%;
