@@ -488,6 +488,7 @@ class Todo extends Component {
       .tasks task .added-at span {
           color: #c1c1c1;
           font-weight: 700 !important;
+          font-family: 'DaddyTimeMono', sans-serif !important;
           transition: color .2s;
       }
 

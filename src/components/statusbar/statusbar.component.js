@@ -94,10 +94,11 @@ class Statusbar extends Component {
           background: var(--flavour);
           bottom: 0;
           transition: all .3s;
+          font-weight: 300;
       }
 
       #tabs ul li[active]:not(:last-child) {
-          font-weight: 700;
+          font-weight: 1000;
           color: #DCD7BA;
           font-size: 16px;
           padding: 6px 0;
