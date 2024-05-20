@@ -10,7 +10,7 @@ const CONFIG = new Config({
     scale: 'C'
   },
   clock: {
-    format: 'a B d @ I:M p',
+    format: 'a B d @ H:i p',
     iconColor: '#DCD7BA'
   },
   search: {
@@ -152,7 +152,8 @@ const CONFIG = new Config({
           name: 'walmart',
           links: [
             {
-              name: 'priority sheet',
+              name: 'priority sheet
+
               url: 'https://docs.google.com/spreadsheets/d/1M9KvsIBkcE0f2C6McGY8-nMfCS90pG5kACsxFU86iMk/edit#gid=753811081',
               icon: 'user-exclamation',
               icon_color: '#98BB6C'
