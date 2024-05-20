@@ -10,7 +10,7 @@ const CONFIG = new Config({
     scale: 'C'
   },
   clock: {
-    format: 'a B d H:M',
+    format: 'a B d @ I:M p',
     iconColor: '#DCD7BA'
   },
   search: {
@@ -74,7 +74,7 @@ const CONFIG = new Config({
             name: 'tenhou',
             url: 'https://tenhou.net/0/',
             icon: 'rectangle-vertical',
-            icon_color: '#C8C093'
+            icon_color: '#DCD7BA'
           },
           {
             name: 'one pace',
@@ -85,8 +85,8 @@ const CONFIG = new Config({
           {
             name: '9anime',
             url: 'https://9animetv.to/',
-            icon: 'ship',
-            icon_color: '#6A9589'
+            icon: 'device-tv',
+            icon_color: '#957FB8'
           },
           {
             name: 'wjar',
@@ -114,8 +114,8 @@ const CONFIG = new Config({
           {
             name: 'github',
             url: 'https://github.com/thedawnsound?tab=repositories',
-            icon: 'download',
-            icon_color: '#FFA066'
+            icon: 'brand-github',
+            icon_color: '#C8C093'
           }
         ]
       }
@@ -129,18 +129,22 @@ const CONFIG = new Config({
           name: 'sjc',
           links: [
             {
-              url: 'https://soundcloud.com/',
-              icon: 'brand-soundcloud',
-              icon_color: '#c57750'
+              name: 'netsuite',
+              url: 'https://574176.app.netsuite.com/app/center/card.nl?sc=-46&whence=',
+              icon: 'clock-2',
+              icon_color: '#223249'
             },
             {
-              url: 'https://youtu.be/',
-              icon: 'brand-youtube',
-              icon_color: '#996767'
+              name: 'gmail',              
+              url: 'https://mail.google.com/mail/u/1/#inbox',
+              icon: 'mail',
+              icon_color: '#C34043'
             },
             {
-              url: 'https://r-a-d.io/',
-              icon: 'radio'
+              name: 'xinet',              
+              url: 'https://walmartportal.stjosephcontent.com/PORTAL/STARTUP.php',
+              icon: 'x',
+              icon_color: '#2D4F67'
             },
           ]
         },
@@ -148,13 +152,10 @@ const CONFIG = new Config({
           name: 'walmart',
           links: [
             {
-              name: '/music/',
-              url: 'https://lainchan.org/music/',
-              icon: 'disc'
-            },
-            {
-              name: '/mu/',
-              url: 'https://boards.4channel.org/mu/'
+              name: 'priority sheet',
+              url: 'https://docs.google.com/spreadsheets/d/1M9KvsIBkcE0f2C6McGY8-nMfCS90pG5kACsxFU86iMk/edit#gid=753811081',
+              icon: 'user-exclamation',
+              icon_color: '#98BB6C'
             }
           ]
         }
@@ -182,14 +183,14 @@ const CONFIG = new Config({
             {
               name: 'bulk image resizer',
               url: 'https://www.birme.net/',
-              icon: 'photo-scan',
-              icon_color: '#717C7C'
+              icon: 'resize',
+              icon_color: '#2D4F67'
             },
             {
               name: 'coolors',
               url: 'https://coolors.co/585123-eec170-f2a65a-f58549-772f1a',
-              icon: 'photo-scan',
-              icon_color: '#717C7C'
+              icon: 'palette',
+              icon_color: '#DCD7BA'
             }
           ]
         },
@@ -205,8 +206,8 @@ const CONFIG = new Config({
             {
               name: 'bpm calc',
               url: 'https://sengpielaudio.com/calculator-bpmtempotime.htm',
-              icon: 'radio',
-              icon_color: '#C34043'
+              icon: 'metronome',
+              icon_color: '#A3D4D5'
             }
           ]
         },
@@ -216,26 +217,26 @@ const CONFIG = new Config({
             {
               name: 'citefast',
               url: 'https://www.citefast.com/?s=APA7',
-              icon: 'mailbox',
+              icon: 'blockquote',
               icon_color: '#C34043'
             },
             {
               name: 'tabler icons',
               url: 'https://tabler.io/icons',
-              icon: 'mailbox',
-              icon_color: '#C34043'
+              icon: 'brand-tabler',
+              icon_color: '#54546D'
             },
             {
               name: 'nerd fonts',
               url: 'https://www.nerdfonts.com/font-downloads',
-              icon: 'mailbox',
-              icon_color: '#C34043'
+              icon: 'text-size',
+              icon_color: '#223249'
             },
             {
               name: 'kanagawa colors',
               url: 'https://github.com/rebelot/kanagawa.nvim?tab=readme-ov-file#color-palette',
-              icon: 'mailbox',
-              icon_color: '#C34043'
+              icon: 'ripple',
+              icon_color: '#A3D4D5'
             }
           ]
         }
