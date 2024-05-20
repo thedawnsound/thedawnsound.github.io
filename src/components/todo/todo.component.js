@@ -1026,7 +1026,6 @@ class Todo extends Component {
           </label>
           <label>
             <input type="datetime-local" class="create-task-field create-task-reminder" name="reminder" required></input>
-            <p><i class="material icons create-task-reminder-icon">link</i></p>
           </label>
           <div class="create-task-priority">
             <input type="radio" class="task-priority priority-low" name="priority" value="0">
