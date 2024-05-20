@@ -218,7 +218,7 @@ class Todo extends Component {
     return `
       :host {
           --done: #98BB6C;
-          --todo: #E82424;
+          --todo: #C34043;
           --bg: #1F1F28;
           --task-options-reveal-time: .15s;
           --task-options-done-background: #98BB6C;
@@ -251,7 +251,7 @@ class Todo extends Component {
           width: 100%;
           padding: 8px;
           border-radius: 10px;
-          box-shadow: inset 0 0 0 2px #16161D;
+          box-shadow: inset 0 0 0 2px #1f1f28;
       }
 
       .counter {
@@ -364,7 +364,7 @@ class Todo extends Component {
           background: var(--bg);
           padding: 1em 1em 0;
           box-sizing: border-box;
-          grid-template-rows: [header] 140px [todo] auto;
+          grid-template-rows: [header] 140px [タスクリスト] auto;
       }
 
       .tasks task {
@@ -372,9 +372,9 @@ class Todo extends Component {
           position: relative;
           width: 100%;
           min-height: 70px;
-          box-shadow: 0 1px 0 0 rgba(0, 0, 0, .5),
+          box-shadow: 0 1px 0 0 rgba(24, 24, 29, .5),
                       0 4px 0 0 #18181d,
-                      0 5px 0 rgba(0, 0, 0, .5),
+                      0 5px 0 rgba(24, 24, 29, .5),
                       0 8px 0 0 #18181d;
           transition: opacity .5s cubic-bezier(0.4, 0, 1, 1),
                       margin .5s cubic-bezier(0.4, 0, 1, 1),
@@ -683,9 +683,9 @@ class Todo extends Component {
         filter: opacity(1);
       }
 
-      .task-priority.priority-low { background: #6fd468; }
-      .task-priority.priority-medium { background: #debc59; }
-      .task-priority.priority-high { background: #d45959; }
+      .task-priority.priority-low { background: #98BB6C; }
+      .task-priority.priority-medium { background: #FF9E3B; }
+      .task-priority.priority-high { background: #E82424; }
 
       .task-priority:checked,
       .task-priority:focus {
@@ -902,9 +902,9 @@ class Todo extends Component {
         display: none;
       }
 
-      .tasks task[priority=low] .priority    { background: #6fd468; }
-      .tasks task[priority=medium] .priority { background: #debc59; }
-      .tasks task[priority=high] .priority   { background: #d45959; }
+      .tasks task[priority=low] .priority    { background: #98BB6C; }
+      .tasks task[priority=medium] .priority { background: #FF9E3B; }
+      .tasks task[priority=high] .priority   { background: #E82424; }
 
       .task-toggle::after {
           content: '';
