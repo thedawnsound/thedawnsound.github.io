@@ -277,7 +277,7 @@ class Todo extends Component {
           grid-column: 5;
           opacity: .5;
           cursor: unset;
-          background: #E82424;
+          background: #C34043;
           box-shadow: 0 0 0 1px #d47779, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
@@ -344,7 +344,7 @@ class Todo extends Component {
           grid-column: 1;
           grid-row: 1;
           transition: top .3s;
-          background: #98BB6C;
+          background: #76946A;
           box-shadow: 0 0 0 1px #c5ed95, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
