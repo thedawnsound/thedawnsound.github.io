@@ -275,7 +275,7 @@ class Todo extends Component {
           grid-column: 5;
           opacity: .5;
           cursor: unset;
-          background: #C34043;
+          background: #E82424;
           box-shadow: 0 0 0 1px #E46876, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
@@ -342,8 +342,8 @@ class Todo extends Component {
           grid-column: 1;
           grid-row: 1;
           transition: top .3s;
-          background: #76946A;
-          box-shadow: 0 0 0 1px #98BB6C, 0 5px 5px rgb(0 0 0 / 20%);
+          background: #98BB6C;
+          box-shadow: 0 0 0 1px #c0ffb6, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       :is(.add-task,
@@ -357,7 +357,7 @@ class Todo extends Component {
 
       .add-task .add-task-icon {
           transition: transform .3s;
-          color: #98BB6C;
+          color: #c0ffb6;
       }
 
       .tasks {
