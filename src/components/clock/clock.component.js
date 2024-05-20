@@ -20,13 +20,13 @@ class Clock extends Component {
         .clock-time {
             white-space: nowrap;
             font: 300 9pt 'DaddyTimeMono', sans-serif;
-            color: #c1c1c1;
+            color: #DCD7BA;
             letter-spacing: .5px;
         }
 
         .clock-icon {
             color: #ff7b95;
-            font-size: 10pt;
+            font-size: 12pt;
             margin-right: 10px;
         }
     `;

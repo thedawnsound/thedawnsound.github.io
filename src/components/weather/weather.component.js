@@ -50,7 +50,8 @@ class Weather extends Component {
   imports() {
     return [
       this.resources.icons.material,
-      this.resources.fonts.roboto
+      this.resources.fonts.roboto,
+      this.resources.fonts.daddytimemono
     ];
   }
 
@@ -64,8 +65,8 @@ class Weather extends Component {
       }
 
       .weather-temperature {
-          font: 300 9pt 'Roboto', sans-serif;
-          color: #c1c1c1;
+          font: 300 9pt 'DaddyTimeMono', sans-serif;
+          color: #DCD7BA;
           white-space: nowrap;
           display: flex;
           align-items: center;
