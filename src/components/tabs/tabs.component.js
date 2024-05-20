@@ -169,7 +169,7 @@ class Tabs extends Component {
       .categories ul .links a {
           color: #DCD7BA;
           text-decoration: none;
-          font: 500 17px 'DaddyTimeMono', sans-serif !important;
+          font: 700 17px 'DaddyTimeMono', sans-serif !important;
           transition: all .2s;
           display: inline-flex;
           align-items: center;

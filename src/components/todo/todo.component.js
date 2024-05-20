@@ -220,7 +220,7 @@ class Todo extends Component {
     return `
       :host {
           --done: #98BB6C;
-          --todo: #E82424;
+          --todo: #C34043;
           --bg: #1F1F28;
           --task-options-reveal-time: .15s;
           --task-options-done-background: #98BB6C;
