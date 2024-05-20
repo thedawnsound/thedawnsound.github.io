@@ -343,7 +343,7 @@ class Todo extends Component {
           grid-row: 1;
           transition: top .3s;
           background: #98BB6C;
-          box-shadow: 0 0 0 1px #c0ffb6, 0 5px 5px rgb(0 0 0 / 20%);
+          box-shadow: 0 0 0 1px #86b27f, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       :is(.add-task,
@@ -357,7 +357,7 @@ class Todo extends Component {
 
       .add-task .add-task-icon {
           transition: transform .3s;
-          color: #c0ffb6;
+          color: #86b27f;
       }
 
       .tasks {
@@ -743,6 +743,7 @@ class Todo extends Component {
           width: 100%;
           position: absolute;
           left: 0;
+	  up: 50px;
       }
 
       .create-task-reminder::after,
@@ -752,7 +753,6 @@ class Todo extends Component {
           position: absolute;
           left: 15px;
           color: #b5b5b5;
-          up: 30px;
       }
 
       .add-task-link { display: none; }
