@@ -125,14 +125,14 @@ class Tabs extends Component {
           width: 100%;
           height: 100%;
           right: 100%;
-          background: #fff url("../img/bg-1.gif") repeat top;
+          background: #fff url("../img/bg-1.gif") repeat left;
           transition: all .6s;
           animation: scroll 25s ease-in-out infinite;
       }
 
       @keyframes scroll {
           50% {
-              background-position-y: -240px;
+              background-position-x: -240px;
           }
       }
 

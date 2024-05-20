@@ -11,7 +11,7 @@ const CONFIG = new Config({
   },
   clock: {
     format: 'a B d',
-    iconColor: '#C8C093'
+    iconColor: '#DCD7BA'
   },
   search: {
     engines: {

@@ -240,7 +240,7 @@ class Todo extends Component {
       .header-title {
           font-weight: 600;
           font-family: 'Nunito', sans-serif;
-          font-size: 28pt;
+          font-size: 24pt;
           text-transform: uppercase;
           color: #363646;
           text-align: center;
@@ -755,7 +755,7 @@ class Todo extends Component {
           font-family: 'Material Icons', sans-serif;
           position: absolute;
           left: 15px;
-          top: 50px;
+          bottom: 30px;
           color: #DCD7BA;
       }
 
