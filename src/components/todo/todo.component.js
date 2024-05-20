@@ -240,8 +240,7 @@ class Todo extends Component {
       .header-title {
           font-weight: 600;
           font-family: 'DaddyTimeMono', sans-serif;
-          font-size: 32pt;
-          text-transform: uppercase;
+          font-size: 34pt;
           color: #363646;
           text-align: center;
           width: 100%;
