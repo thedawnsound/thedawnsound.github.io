@@ -755,7 +755,7 @@ class Todo extends Component {
           font-family: 'Material Icons', sans-serif;
           position: absolute;
           left: 15px;
-          bottom: 15px;
+          bottom: 12px;
           color: #DCD7BA;
       }
 
