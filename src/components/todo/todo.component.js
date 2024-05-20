@@ -238,14 +238,14 @@ class Todo extends Component {
       }
 
       .header-title {
-          font-weight: 600;
+          font-weight: 700;
           font-family: 'Nunito', sans-serif;
-          font-size: 24pt;
+          font-size: 26pt;
           text-transform: uppercase;
           color: #363646;
           text-align: center;
           width: 100%;
-          letter-spacing: 5px;
+          letter-spacing: 1px;
       }
 
       .task-actions {
