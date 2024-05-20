@@ -34,7 +34,7 @@ class Clock extends Component {
 
   template() {
     return `
-        <span class="material-icons clock-icon">schedule</span>
+        <span class="material-icons clock-icon">event</span>
         <p class="clock-time"></p>
     `;
   }

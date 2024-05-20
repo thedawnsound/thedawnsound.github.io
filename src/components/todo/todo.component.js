@@ -342,7 +342,7 @@ class Todo extends Component {
           grid-row: 1;
           transition: top .3s;
           background: #98BB6C;
-          box-shadow: 0 0 0 1px #76946A, 0 5px 5px rgb(0 0 0 / 20%);
+          box-shadow: 0 0 0 1px #2B3328, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       :is(.add-task,
@@ -356,7 +356,7 @@ class Todo extends Component {
 
       .add-task .add-task-icon {
           transition: transform .3s;
-          color: #2B3328;
+          color: #98BB6C;
       }
 
       .tasks {
