@@ -226,7 +226,7 @@ class Tabs extends Component {
       }
 
       .categories .links li h1 {
-          color: #42424e;
+          color: #363646;
           font-size: 13px;
           margin-bottom: 1em;
           font-weight: 600;
