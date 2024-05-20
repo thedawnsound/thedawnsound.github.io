@@ -238,9 +238,11 @@ class Todo extends Component {
       }
 
       .header-title {
-          font-weight: 150;
+          font-weight: 600;
           font-family: 'Nunito', sans-serif;
-          font-size: 30pt;
+          font-size: 40pt;
+          letter-spacing: 1px;
+          text-transform: uppercase;
           color: #363646;
           text-align: center;
           width: 100%;
@@ -735,7 +737,7 @@ class Todo extends Component {
 
       .create-task-reminder,
       .edit-task-reminder {
-          padding-left: 0px;
+          padding-left: 35px;
           color: #DCD7BA;
       }
 
@@ -754,7 +756,8 @@ class Todo extends Component {
           font-family: 'Material Icons', sans-serif;
           position: absolute;
           left: 15px;
-          color: #b5b5b5;
+          up: 20px;
+          color: #DCD7BA;
       }
 
       .add-task-link { display: none; }
@@ -1037,7 +1040,7 @@ class Todo extends Component {
       </div>
       <rows class="tasks">
         <div class="+ header">
-          <p class="+ header-title">リスト</p>
+          <p class="+ header-title">タスクリスト</p>
           <div class="task-actions">
             <button class="+ add-task task-action" title="Add new task">
               <i class="material-icons add-task-icon">add</i>
