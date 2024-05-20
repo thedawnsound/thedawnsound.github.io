@@ -19,7 +19,7 @@ class Clock extends Component {
     return `
         .clock-time {
             white-space: nowrap;
-            font: 300 9pt 'DaddyTimeMono', sans-serif;
+            font: 300 11pt 'DaddyTimeMono', sans-serif;
             color: #DCD7BA;
             letter-spacing: .5px;
         }

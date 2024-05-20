@@ -210,7 +210,7 @@ class Tabs extends Component {
           background: linear-gradient(to top, #000000, rgb(191 191 191 / 40%));
           color: rgb(220 215 186 / 65%);
           letter-spacing: 1px;
-          font: 100 30px 'Nunito', sans-serif;
+          font: 700 30px 'Nunito', sans-serif;
           text-align: center;
           flex-wrap: wrap;
           word-break: break-all;

@@ -65,8 +65,9 @@ class Weather extends Component {
       }
 
       .weather-temperature {
-          font: 300 9pt 'DaddyTimeMono', sans-serif;
+          font: 300 11pt 'DaddyTimeMono', sans-serif;
           color: #DCD7BA;
+          letter-spacing: .5px;
           white-space: nowrap;
           display: flex;
           align-items: center;
@@ -84,7 +85,7 @@ class Weather extends Component {
       }
 
       .weather-temperature-location {
-          font-weight: 500;
+          font-weight: 300;
       }
 
       .weather-temperature-value
