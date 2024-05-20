@@ -222,7 +222,7 @@ class Todo extends Component {
           --bg: #1F1F28;
           --task-options-reveal-time: .15s;
           --task-options-done-background: #98BB6C;
-          --task-options-todo-background: #E82424;
+          --task-options-todo-background: #C34043;
       }
 
       button {
@@ -275,8 +275,8 @@ class Todo extends Component {
           grid-column: 5;
           opacity: .5;
           cursor: unset;
-          background: #E82424;
-          box-shadow: 0 0 0 1px #E46876, 0 5px 5px rgb(0 0 0 / 20%);
+          background: #C34043;
+          box-shadow: 0 0 0 1px #d47779, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       .clean-tasks.active {
@@ -289,7 +289,7 @@ class Todo extends Component {
       }
 
       .clean-tasks-icon {
-          color: #E46876;
+          color: #d47779;
       }
 
       .add-task:hover .add-task-icon {
@@ -301,13 +301,13 @@ class Todo extends Component {
       }
 
       .todo-count {
-          color: var(--todo);
+          color: #E82424;
           font-weight: bold;
           border-radius: 5px 0 0 5px;
       }
 
       .done-count {
-          color: var(--done);
+          color: #98BB6C;
           font-weight: bold;
           letter-spacing: 0;
           border-radius: 0 5px 5px 0;
@@ -315,7 +315,7 @@ class Todo extends Component {
 
       .todo-count,
       .done-count {
-          width: 100%;
+          width: 80%;
           height: 100%;
           cursor: pointer;
           font-family: 'DaddyTimeMono', sans-serif;
@@ -750,8 +750,9 @@ class Todo extends Component {
           content: '\\e935';
           font-family: 'Material Icons', sans-serif;
           position: absolute;
-          left: 13px;
+          left: 15px;
           color: #b5b5b5;
+          up: 30px;
       }
 
       .add-task-link { display: none; }
