@@ -175,7 +175,7 @@ class Tabs extends Component {
           align-items: center;
           padding: .4em .7em;
           background: rgb(35 35 44);
-          box-shadow: 0 4px #1c1d24, 0 5px 10px rgb(0 0 0 / 50%);
+          box-shadow: 0 4px #16161D, 0 5px 10px rgb(0 0 0 / 50%);
           border-radius: 2px;
           margin-bottom: .7em;
       }
@@ -247,6 +247,7 @@ class Tabs extends Component {
       .categories .links-wrapper {
           display: flex;
           flex-wrap: wrap;
+          color: #363646;
       }
     `;
   }

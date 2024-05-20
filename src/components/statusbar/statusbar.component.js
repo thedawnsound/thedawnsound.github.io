@@ -122,7 +122,7 @@ class Statusbar extends Component {
           height: 32px;
           color: #fff;
           font-size: 12px;
-          background: #1d1d21;
+          background: #1f1f28;
       }
 
       .widgets:hover .edit {

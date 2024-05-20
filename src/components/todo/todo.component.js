@@ -512,7 +512,7 @@ class Todo extends Component {
           width: 70%;
           color: #DCD7BA;
           font: 400 15px 'DaddyTimeMono', sans-serif;
-          background: #54546D;
+          background: #363646;
           border-radius: 40px;
           box-sizing: border-box;
           transition: box-shadow .1s;
@@ -567,7 +567,7 @@ class Todo extends Component {
           height: 100%;
           position: relative;
           padding: 1em 1em .5em;
-          background: #54546D;
+          background: #363646;
           transition: height var(--task-options-reveal-time) ease-in,
                       margin var(--task-options-reveal-time) ease-in,
                       box-shadow var(--task-options-reveal-time) ease-in;
