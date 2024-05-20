@@ -23,7 +23,7 @@ class Links extends Component {
               ${links.map(link =>
                 `
                   <div class="link-info">
-                    <a href="${ link.url }" target="_blank">
+                    <a href="${ link.url }" target="_self">
                       ${Links.getIcon(link)}
                       ${link.name ? `<p class="link-name">${link.name}</p>` : ''}
                     </a>
@@ -242,6 +242,8 @@ class Tabs extends Component {
 
       .categories .link-icon + .link-name {
           margin-left: 10px;
+          color: #363646;
+          font-family: 'DaddyTimeMono', sans-serif;
       }
 
       .categories .links-wrapper {
