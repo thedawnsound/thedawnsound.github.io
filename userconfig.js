@@ -57,7 +57,7 @@ const CONFIG = new Config({
             name: 'drive',
             url: 'https://drive.google.com/drive/u/0/home',
             icon: 'brand-google-drive',
-            icon_color: '#76946A'
+            icon_color: '#98BB6C'
           },
           {
             name: 'translate',
@@ -122,7 +122,7 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'はたらく',
+      name: 'はたらきます',
       background_url: 'src/img/banners/bg-2.gif',
       categories: [
         {
@@ -132,7 +132,7 @@ const CONFIG = new Config({
               name: 'netsuite',
               url: 'https://574176.app.netsuite.com/app/center/card.nl?sc=-46&whence=',
               icon: 'clock-2',
-              icon_color: '#223249'
+              icon_color: '#2D4F67'
             },
             {
               name: 'gmail',              
@@ -140,17 +140,23 @@ const CONFIG = new Config({
               icon: 'mail',
               icon_color: '#C34043'
             },
-            {
-              name: 'xinet',              
-              url: 'https://walmartportal.stjosephcontent.com/PORTAL/STARTUP.php',
-              icon: 'x',
-              icon_color: '#2D4F67'
-            }
+          　{
+           　 name: 'drive',
+           　 url: 'https://drive.google.com/drive/u/1/my-drive',
+           　 icon: 'brand-google-drive',
+           　 icon_color: '#98BB6C'
+          　}
           ]
         },
         {
           name: 'walmart',
           links: [
+            {
+              name: 'xinet',              
+              url: 'https://walmartportal.stjosephcontent.com/PORTAL/STARTUP.php',
+              icon: 'x',
+              icon_color: '#7FB4CA'
+            },            
             {
               name: 'priority sheet',
               url: 'https://docs.google.com/spreadsheets/d/1M9KvsIBkcE0f2C6McGY8-nMfCS90pG5kACsxFU86iMk/edit#gid=753811081',
@@ -162,7 +168,7 @@ const CONFIG = new Config({
       ]
     },
     {
-      name: 'なんでも',
+      name: 'なんでもない',
       background_url: 'src/img/banners/bg-3.gif',
       categories: [
         {
