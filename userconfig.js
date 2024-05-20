@@ -196,7 +196,7 @@ const CONFIG = new Config({
               name: 'coolors',
               url: 'https://coolors.co/585123-eec170-f2a65a-f58549-772f1a',
               icon: 'palette',
-              icon_color: '#DCD7BA'
+              icon_color: '#C8C093'
             }
           ]
         },
@@ -236,7 +236,7 @@ const CONFIG = new Config({
               name: 'nerd fonts',
               url: 'https://www.nerdfonts.com/font-downloads',
               icon: 'text-size',
-              icon_color: '#223249'
+              icon_color: '#2d4f67'
             },
             {
               name: 'kanagawa colors',
