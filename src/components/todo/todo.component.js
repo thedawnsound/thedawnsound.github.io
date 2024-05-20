@@ -27,6 +27,7 @@ class Todo extends Component {
   imports() {
     return [
       this.resources.fonts.roboto,
+      this.resources.fonts.daddytimemono,
       this.resources.icons.material,
       this.resources.libs.awoo
     ];
@@ -316,7 +317,7 @@ class Todo extends Component {
           width: 100%;
           height: 100%;
           cursor: pointer;
-          font-family: 'Roboto', sans-serif;
+          font-family: 'DaddyTimeMono', sans-serif;
       }
 
       .todo-count:hover,
@@ -435,7 +436,7 @@ class Todo extends Component {
           box-shadow: inset 0 0 0 1px #3e3e4a;
           cursor: pointer;
           font-weight: bold;
-          font-family: 'Roboto', sans-serif;
+          font-family: 'DaddyTimeMono', sans-serif;
       }
 
       .add-task-button:hover { color: #cbcbdc; }
@@ -446,7 +447,7 @@ class Todo extends Component {
       .edit-task-header-title,
       .create-task-header-title {
           color: #e8e8e8;
-          font: 400 14px 'Roboto', sans-serif;
+          font: 400 14px 'DaddyTimeMono', sans-serif;
           max-width: 250px;
           word-wrap: break-word;
           -webkit-user-select: initial;
@@ -506,7 +507,7 @@ class Todo extends Component {
           padding: .5em 1em;
           width: 70%;
           color: #fff;
-          font: 400 15px 'Roboto', sans-serif;
+          font: 400 15px 'DaddyTimeMono', sans-serif;
           background: #0f0f12;
           border-radius: 40px;
           box-sizing: border-box;
@@ -646,7 +647,7 @@ class Todo extends Component {
             position: absolute;
             top: -100%;
             font-size: 9px;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'DaddyTimeMono', sans-serif;
             text-transform: uppercase;
             color: #b5b5b5;
             letter-spacing: 1px;
