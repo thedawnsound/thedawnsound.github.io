@@ -240,11 +240,10 @@ class Todo extends Component {
       .header-title {
           font-weight: 600;
           font-family: 'DaddyTimeMono', sans-serif;
-          font-size: 34pt;
+          font-size: 38pt;
           color: #363646;
           text-align: center;
           width: 100%;
-          letter-spacing: 1px;
       }
 
       .task-actions {
@@ -278,7 +277,7 @@ class Todo extends Component {
           grid-column: 5;
           opacity: .5;
           cursor: unset;
-          background: #C34043;
+          background: #E82424;
           box-shadow: 0 0 0 1px #d47779, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
@@ -304,7 +303,7 @@ class Todo extends Component {
       }
 
       .todo-count {
-          color: #C34043;
+          color: #E82424;
           font-weight: bold;
           border-radius: 5px 0 0 5px;
       }
@@ -331,7 +330,7 @@ class Todo extends Component {
 
       .todo-count.active {
           background: var(--todo);
-          color: #C34043;
+          color: #E82424;
       }
 
       .done-count.active {
