@@ -125,7 +125,7 @@ class Tabs extends Component {
           width: 100%;
           height: 100%;
           right: 100%;
-          background: #fff url("../img/bg-1.gif") repeat left;
+          background: #fff url("../img/bg-1.gif") repeat up;
           transition: all .6s;
           animation: scroll 25s ease-in-out infinite;
       }

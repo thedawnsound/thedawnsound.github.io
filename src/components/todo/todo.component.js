@@ -240,8 +240,7 @@ class Todo extends Component {
       .header-title {
           font-weight: 600;
           font-family: 'Nunito', sans-serif;
-          font-size: 40pt;
-          letter-spacing: 1px;
+          font-size: 20pt;
           text-transform: uppercase;
           color: #363646;
           text-align: center;
@@ -754,7 +753,7 @@ class Todo extends Component {
       .edit-task-reminder::after {
           content: '\\e935';
           font-family: 'Material Icons', sans-serif;
-          position: absolute;
+          position: relative;
           left: 15px;
           up: 20px;
           color: #DCD7BA;
