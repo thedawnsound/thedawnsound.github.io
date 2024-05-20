@@ -167,9 +167,9 @@ class Tabs extends Component {
       }
 
       .categories ul .links a {
-          color: #C8C093;
+          color: #DCD7BA;
           text-decoration: none;
-          font: 700 18px 'DaddyTimeMono', sans-serif;
+          font: 700 18px 'DaddyTimeMono', sans-serif !important;
           transition: all .2s;
           display: inline-flex;
           align-items: center;
@@ -189,7 +189,7 @@ class Tabs extends Component {
       .categories ul .links a:hover {
           transform: scale(1.2);
           box-shadow: 0 0 rgba(0, 0, 0, 0.25), 0 0 0 rgba(0, 0, 0, .5), 0 -4px 5px rgba(0, 0, 0, .1);
-          color: #DCD7BA;
+          color: #f4ffd7;
       }
 
       .categories ul::after {
