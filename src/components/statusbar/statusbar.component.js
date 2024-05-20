@@ -30,6 +30,7 @@ class Statusbar extends Component {
   imports() {
     return [
       this.resources.fonts.roboto,
+      this.resources.fonts.nunito,
       this.resources.icons.material,
       this.resources.libs.awoo,
     ];
@@ -73,8 +74,8 @@ class Statusbar extends Component {
       #tabs ul li:not(:last-child) {
           width: 35px;
           text-align: center;
-          font: 100 13px 'Roboto', serif;
-          color: #bbb;
+          font: 200 13px 'Nunito', serif;
+          color: #C8C093;
           padding: 6px 0;
           transition: all .1s;
           cursor: pointer;
@@ -97,7 +98,7 @@ class Statusbar extends Component {
 
       #tabs ul li[active]:not(:last-child) {
           font-weight: 700;
-          color: #fff;
+          color: #DCD7BA;
           font-size: 16px;
           padding: 6px 0;
       }
