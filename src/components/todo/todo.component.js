@@ -244,6 +244,7 @@ class Todo extends Component {
           color: rgba(220, 215, 186, .1);
           text-align: center;
           width: 100%;
+          height: 100%;
           letter-spacing: 5px;
       }
 
