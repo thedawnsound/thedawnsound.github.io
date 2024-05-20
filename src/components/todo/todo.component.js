@@ -267,7 +267,7 @@ class Todo extends Component {
           height: 25px;
           min-width: 30px;
           background: #16161D;
-          border-radius: 0px;
+          border-radius: 5px;
           box-shadow: 0 0 0 1px #27272a, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
