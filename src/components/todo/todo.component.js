@@ -343,7 +343,7 @@ class Todo extends Component {
           grid-row: 1;
           transition: top .3s;
           background: #98BB6C;
-          box-shadow: 0 0 0 1px #a1b884, 0 5px 5px rgb(0 0 0 / 20%);
+          box-shadow: 0 0 0 1px #b2bfa4, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       :is(.add-task,
@@ -357,14 +357,14 @@ class Todo extends Component {
 
       .add-task .add-task-icon {
           transition: transform .3s;
-          color: #a1b884;
+          color: #b2bfa4;
       }
 
       .tasks {
           background: var(--bg);
           padding: 1em 1em 0;
           box-sizing: border-box;
-          grid-template-rows: [header] 140px [タスクリスト] auto;
+          grid-template-rows: [header] 140px [todo] auto;
       }
 
       .tasks task {
@@ -1034,7 +1034,7 @@ class Todo extends Component {
       </div>
       <rows class="tasks">
         <div class="+ header">
-          <p class="+ header-title">todo</p>
+          <p class="+ header-title">タスクリスト</p>
           <div class="task-actions">
             <button class="+ add-task task-action" title="Add new task">
               <i class="material-icons add-task-icon">add</i>
