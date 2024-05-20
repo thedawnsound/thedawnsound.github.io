@@ -219,7 +219,7 @@ class Todo extends Component {
       :host {
           --done: #37eb94;
           --todo: #ff1b91;
-          --bg: #0f0f12;
+          --bg: #1F1F28;
           --task-options-reveal-time: .15s;
           --task-options-done-background: #357d5a;
           --task-options-todo-background: #84355e;
@@ -257,7 +257,7 @@ class Todo extends Component {
           grid-column: 3;
           color: rgba(255, 255, 255, .1);
           font-size: 14px;
-          background: #18181d;
+          background: #1F1F28;
           border-radius: 5px;
       }
 
@@ -492,7 +492,7 @@ class Todo extends Component {
           flex-wrap: wrap;
           width: calc(100% - 1px);
           top: -335px;
-          background: #18181d;
+          background: #1F1F28;
           transition: top .5s;
           padding: 0 1.5em 1em;
           z-index: 9;
@@ -506,7 +506,7 @@ class Todo extends Component {
           box-shadow: inset 0 0 0 2px #25252d;
           padding: .5em 1em;
           width: 70%;
-          color: #DCD7BA;
+          color: #16161D;
           font: 400 15px 'DaddyTimeMono', sans-serif;
           background: #54546D;
           border-radius: 40px;
@@ -563,7 +563,7 @@ class Todo extends Component {
           height: 100%;
           position: relative;
           padding: 1em 1em .5em;
-          background: #1F1F28;
+          background: #54546D;
           transition: height var(--task-options-reveal-time) ease-in,
                       margin var(--task-options-reveal-time) ease-in,
                       box-shadow var(--task-options-reveal-time) ease-in;
