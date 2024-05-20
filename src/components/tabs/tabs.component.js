@@ -229,9 +229,8 @@ class Tabs extends Component {
           color: #363646;
           font-size: 13px;
           margin-bottom: 1em;
-          font-weight: 1000;
+          font-weight: 1400;
           letter-spacing: 1px;
-          text-transform: uppercase;
           font-family: 'DaddyTimeMono', sans-serif;
       }
 
