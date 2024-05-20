@@ -244,7 +244,6 @@ class Todo extends Component {
           color: rgba(220, 215, 186, .1);
           text-align: center;
           width: 100%;
-          height: 100%;
           letter-spacing: 5px;
       }
 
@@ -1027,6 +1026,7 @@ class Todo extends Component {
           </label>
           <label>
             <input type="datetime-local" class="create-task-field create-task-reminder" name="reminder" required></input>
+            <p><i class="material icons create-task-reminder-icon">link</i></p>
           </label>
           <div class="create-task-priority">
             <input type="radio" class="task-priority priority-low" name="priority" value="0">

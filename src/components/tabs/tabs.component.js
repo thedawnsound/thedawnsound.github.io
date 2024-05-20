@@ -203,12 +203,12 @@ class Tabs extends Component {
           padding: 1em;
           margin: auto;
           border-radius: 5px;
-          box-shadow: inset 0 0 0 1px rgb(255 255 255 / 50%);
+          box-shadow: inset 0 0 0 1px rgb(220 215 186 / 50%);
           left: calc(15% - 42.5px);
           bottom: 0;
           top: 0;
           background: linear-gradient(to top, #000000, rgb(191 191 191 / 40%));
-          color: rgb(255 255 255 / 65%);
+          color: rgb(220 215 186 / 65%);
           letter-spacing: 1px;
           font: 100 30px 'Nunito', sans-serif;
           text-align: center;
