@@ -288,7 +288,7 @@ class Todo extends Component {
       }
 
       .clean-tasks-icon {
-          color: #c975a0;
+          color: #43242B;
       }
 
       .add-task:hover .add-task-icon {
@@ -356,7 +356,7 @@ class Todo extends Component {
 
       .add-task .add-task-icon {
           transition: transform .3s;
-          color: #79bf9e;
+          color: #2B3328;
       }
 
       .tasks {
