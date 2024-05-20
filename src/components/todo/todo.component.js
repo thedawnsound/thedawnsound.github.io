@@ -217,12 +217,12 @@ class Todo extends Component {
   style() {
     return `
       :host {
-          --done: #37eb94;
-          --todo: #ff1b91;
+          --done: #98BB6C;
+          --todo: #E82424;
           --bg: #1F1F28;
           --task-options-reveal-time: .15s;
-          --task-options-done-background: #357d5a;
-          --task-options-todo-background: #84355e;
+          --task-options-done-background: #76946A;
+          --task-options-todo-background: #C34043;
       }
 
       button {
@@ -274,8 +274,8 @@ class Todo extends Component {
           grid-column: 5;
           opacity: .5;
           cursor: unset;
-          background: #81395e;
-          box-shadow: 0 0 0 1px #c975a0, 0 5px 5px rgb(0 0 0 / 20%);
+          background: #E82424;
+          box-shadow: 0 0 0 1px #C34043, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       .clean-tasks.active {
@@ -327,12 +327,12 @@ class Todo extends Component {
 
       .todo-count.active {
           background: var(--todo);
-          color: #6d244a;
+          color: #C34043;
       }
 
       .done-count.active {
           background: var(--done);
-          color: #1f6744;
+          color: #98BB6C;
       }
 
       .add-task {
@@ -341,8 +341,8 @@ class Todo extends Component {
           grid-column: 1;
           grid-row: 1;
           transition: top .3s;
-          background: #306554;
-          box-shadow: 0 0 0 1px #5ea991, 0 5px 5px rgb(0 0 0 / 20%);
+          background: #76946A;
+          box-shadow: 0 0 0 1px #98BB6C, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       :is(.add-task,
@@ -506,7 +506,7 @@ class Todo extends Component {
           box-shadow: inset 0 0 0 2px #25252d;
           padding: .5em 1em;
           width: 70%;
-          color: #16161D;
+          color: #DCD7BA;
           font: 400 15px 'DaddyTimeMono', sans-serif;
           background: #54546D;
           border-radius: 40px;
