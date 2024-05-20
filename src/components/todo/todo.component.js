@@ -275,7 +275,7 @@ class Todo extends Component {
           opacity: .5;
           cursor: unset;
           background: #C34043;
-          box-shadow: 0 0 0 1px #E82424, 0 5px 5px rgb(0 0 0 / 20%);
+          box-shadow: 0 0 0 1px #43242B, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
       .clean-tasks.active {
@@ -288,7 +288,7 @@ class Todo extends Component {
       }
 
       .clean-tasks-icon {
-          color: #43242B;
+          color: #E82424;
       }
 
       .add-task:hover .add-task-icon {
@@ -341,7 +341,7 @@ class Todo extends Component {
           grid-column: 1;
           grid-row: 1;
           transition: top .3s;
-          background: #98BB6C;
+          background: #76946A;
           box-shadow: 0 0 0 1px #2B3328, 0 5px 5px rgb(0 0 0 / 20%);
       }
 
