@@ -7,7 +7,8 @@ class Component extends HTMLElement {
     fonts: {
       roboto: '<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">',
       nunito: '<link href="https://fonts.googleapis.com/css?family=Nunito:200" rel="stylesheet">',
-      raleway: '<link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">'
+      raleway: '<link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">',
+      daddytimemono: '<link href="https://raw.githubusercontent.com/thedawnsound/kanagawa-discord-fontchange/main/DaddyTimeMono.otf">'
     },
     icons: {
       material: '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">',
