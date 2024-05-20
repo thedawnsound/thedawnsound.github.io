@@ -15,11 +15,16 @@ class Clock extends Component {
     ];
   }
 
+@font-face {
+    font-family: "DaddyTimeMono";
+    src: url("https://raw.githubusercontent.com/thedawnsound/kanagawa-discord-fontchange/main/DaddyTimeMono.otf");
+}
+
   style() {
     return `
         .clock-time {
             white-space: nowrap;
-            font: 300 9pt 'Roboto', sans-serif;
+            font: 300 9pt 'DaddyTimeMono';
             color: #c1c1c1;
             letter-spacing: .5px;
         }
