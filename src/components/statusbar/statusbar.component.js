@@ -75,7 +75,7 @@ class Statusbar extends Component {
       #tabs ul li:not(:last-child) {
           width: 35px;
           text-align: center;
-          font: 400 13px 'Nunito', serif;
+          font: 1000 13px 'Nunito', serif;
           color: #C8C093;
           padding: 6px 0;
           transition: all .1s;
@@ -98,7 +98,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:not(:last-child) {
-          font-weight: 1200;
+          font-weight: 2000;
           color: #DCD7BA;
           font-size: 16px;
           padding: 6px 0;

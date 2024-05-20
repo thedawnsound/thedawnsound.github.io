@@ -483,13 +483,14 @@ class Todo extends Component {
           font-weight: 400;
           margin-right: 15px;
           text-transform: uppercase;
+          font-family: 'DaddyTimeMono', sans-serif !important;
       }
 
       .tasks task .added-at span {
           color: #c1c1c1;
           font-weight: 700 !important;
           font-family: 'DaddyTimeMono', sans-serif !important;
-          width: 100%;
+          width: 150%;
           transition: color .2s;
       }
 
@@ -1040,7 +1041,7 @@ class Todo extends Component {
       </div>
       <rows class="tasks">
         <div class="+ header">
-          <p class="+ header-title">to-do</p>
+          <p class="+ header-title">tasks</p>
           <div class="task-actions">
             <button class="+ add-task task-action" title="Add new task">
               <i class="material-icons add-task-icon">add</i>
