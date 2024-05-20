@@ -89,7 +89,7 @@ class Weather extends Component {
 
       .weather-temperature-value
       {
-          font-weight: bold;
+          font-weight: normal;
       }
 
       .weather-condition-icon {
