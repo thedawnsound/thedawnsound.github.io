@@ -192,7 +192,7 @@ class Tabs extends Component {
           color: #f4ffd7;
       }
 
-      .categories ul::after {
+/*      .categories ul::after {
           content: attr(class);
           position: absolute;
           display: flex;
@@ -217,7 +217,7 @@ class Tabs extends Component {
           align-items: center;
           mix-blend-mode: screen;
           backdrop-filter: blur(3px);
-      }
+      } */
 
       .categories .links li:not(:last-child) {
           box-shadow: 0 1px 0 rgba(255, 255, 255, .07);
