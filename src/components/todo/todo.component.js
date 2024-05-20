@@ -378,7 +378,7 @@ class Todo extends Component {
           box-shadow: 0 1px 0 0 rgba(24, 24, 29, .5),
                       0 4px 0 0 #18181d,
                       0 5px 0 rgba(24, 24, 29, .5),
-                      0 8px 0 0 #18181d;
+                      0 6px 0 0 #18181d;
           transition: opacity .5s cubic-bezier(0.4, 0, 1, 1),
                       margin .5s cubic-bezier(0.4, 0, 1, 1),
                       box-shadow .2s,
