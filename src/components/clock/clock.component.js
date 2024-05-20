@@ -1,3 +1,13 @@
+var newStyle = document.createElement('style');
+newStyle.appendChild(document.createTextNode("\
+@font-face {
+    font-family: "DaddyTimeMono";
+    src: url("https://raw.githubusercontent.com/thedawnsound/kanagawa-discord-fontchange/main/DaddyTimeMono.otf");\
+}\
+"));
+
+document.head.appendChild(newStyle);
+
 class Clock extends Component {
   refs = {
     clock: '.clock-time',
@@ -19,7 +29,7 @@ class Clock extends Component {
     return `
         .clock-time {
             white-space: nowrap;
-            font: 300 9pt 'Roboto', sans-serif;
+            font: 300 9pt 'DaddyTimeMono', sans-serif;
             color: #c1c1c1;
             letter-spacing: .5px;
         }
