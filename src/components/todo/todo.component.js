@@ -741,10 +741,10 @@ class Todo extends Component {
 
       .create-task-reminder::-webkit-calendar-picker-indicator,
       .edit-task-reminder::-webkit-calendar-picker-indicator{
-          color: transparent;
+          color: #DCD7BA;
           background: none;
           width: 100%;
-          position: absolute;
+          position: relative;
           left: 0;
       }
 
