@@ -157,7 +157,7 @@ class Tabs extends Component {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #18181d;
+          background: #1f1f28;
           padding: 5%;
           flex-wrap: wrap;
       }
@@ -242,7 +242,7 @@ class Tabs extends Component {
 
       .categories .link-icon + .link-name {
           margin-left: 10px;
-          color: #363646;
+          color: #DCD7BA;
           font-family: 'DaddyTimeMono', sans-serif;
       }
 
